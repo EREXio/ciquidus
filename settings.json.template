@@ -5,21 +5,21 @@
 */
 {
   // name your instance!
-  "title": "CIQUIDUS",
+  "title": "Erexcoin Explorer",
 
   "address": "127.0.0.1:3001",
 
   // coin name
-  "coin": "Chaincoin",
+  "coin": "Erexcoin",
 
   // coin symbol
-  "symbol": "CHC",
+  "symbol": "EREX",
 
   // logo
-  "logo": "/images/chain_dark-128x128.png",
+  "logo": "https://erex.io/en/icon/circle-cropped.png",
 
   // favicon
-  "favicon": "public/favicon.ico",
+  "favicon": "https://erex.io/assets/img/favicon.png",
 
   // Uses bootswatch themes (http://bootswatch.com/)
   // Valid options:
@@ -48,12 +48,12 @@
   "wallet": {
     "host": "localhost",
     "port": 11995,
-    "user": "chaincoinrpc",
+    "user": "erexcoinrpc",
     "pass": "123gfjk3R3pCCVjHtbRde2s5kzdf233sa"
   },
 
   // confirmations
-  "confirmations": 40,
+  "confirmations": 3,
 
   // language settings
   "locale": "locale/en.json",
@@ -78,7 +78,7 @@
   // index page (valid options for difficulty are POW, POS or Hybrid)
   "index": {
     "show_hashrate": true,
-    "difficulty": "POW",
+    "difficulty": "POS",
     "last_txs": 100
   },
 
